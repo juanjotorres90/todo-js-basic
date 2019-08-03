@@ -1,6 +1,6 @@
                                                                           // Vanila JavaScript todo list app
 var taskInput = document.getElementById("new-task");                      // New-task
-var addButton = document.getElementsByTagName("button")[0];               // First button
+var addButton = document.querySelector("button");               // First button
 var incompleteTasksHolder = document.getElementById("incomplete-tasks");  // Incomplete-tasks
 var completedTasksHolder = document.getElementById("completed-tasks");    // Completed-tasks
 
@@ -29,7 +29,7 @@ var createNewTaskElement = function(taskString) {       // New Task List Item
   return listItem;
 };
 
-var addTask = function() {                            // Add a new task
+var addTask = () => {                            // Add a new task
   var listItemName = taskInput.value || "New Item";   // We hold the current value or provide the default one
   var listItem = createNewTaskElement(listItemName);  // Create a new list item with the text from #new-task
   incompleteTasksHolder.appendChild(listItem);        // Append listItem to incompleteTasksHolder

@@ -86,6 +86,8 @@ li > input[type="checkbox"] {
   margin: 0 10px;
   position: relative;
   top: 15px;
+  /* -webkit-appearance: none; */
+
 }
 li > label {
   font-size: 18px;
