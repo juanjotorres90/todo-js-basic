@@ -1,0 +1,19 @@
+{
+  "name": "todo-js-basic",
+  "version": "1.0.0",
+  "description": "Basic JavaScript ToDo App\r ======\r Vanilla (**JavaScript**)-only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanjotorres90/todo-js-basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanjotorres90/todo-js-basic/issues"
+  },
+  "homepage": "https://github.com/juanjotorres90/todo-js-basic#readme"
+}
